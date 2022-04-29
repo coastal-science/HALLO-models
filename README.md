@@ -1,5 +1,7 @@
 # HALLO-models
 
+The repository is under construction. We expect to have a first, complete version ready by the end of May, 2022, or sooner. Stay tuned!
+
 ## Description
 
 ## Prerequisites
@@ -9,7 +11,6 @@
 ## Usage
 
 ## Support
-Tell people where they can go to for help.
 
 ## Roadmap
 
