@@ -10,10 +10,10 @@ Here, you will find instructions and configuration files required to
 train deep learning models for detecting and classifying vocalisations
 made by killer whales.
 
-You will also need access to large body of underwater sound recordings. 
-Unfortunately, these recordings are not yet publicly available, although 
-we are working feverishly to change this! Please check in here again soon 
-for instructions on how to access the audio files. 
+However, you will also need access to large bodies of underwater sound 
+recordings. Unfortunately, these recordings are not yet publicly available, 
+although we are working feverishly to change this! Please check in here again 
+soon for instructions on how to access the audio files. 
 
 
 
