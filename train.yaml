@@ -1,0 +1,15 @@
+representation_path: spec.json
+models:
+    hallo-kw:
+        recipe: resnet_recipe.json
+        database: db_hallo.h5
+        representation: spectrogram  
+        batch_composition:
+            RobertsBank/tp: 16
+            RobertsBank/fp: 32
+            BoundaryPass/tp: 16
+        epochs: 100
+        repeats: 3
+        early_stopping: yes
+        checkpoint_frequency: 4
+        multi_label: no

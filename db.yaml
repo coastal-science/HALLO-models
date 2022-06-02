@@ -1,0 +1,45 @@
+representation_path: spec.json
+start_labels_at_1: no
+sampling:
+    fp:
+        label: 0
+        avoid_label: 1
+        duration: 5.0
+        step: 1.5
+        min_overlap: 1.
+        pad: no
+        representation:
+            - spectrogram
+    tp:
+        label: 1
+        duration: 5.0
+        step: 1.5
+        min_overlap: 1.
+        pad: no
+        representation:
+            - spectrogram
+sources:
+    BoundaryPass:
+        audio: 
+            path: ../hallo-data/JASCO/BoundaryPass/
+            datetime_format: "%Y%m%dT%H%M%S"
+        annotations:
+            path: annotations/annot_BP.csv
+        split:
+            train: 0.8
+            val: 0.2
+            test: 
+                path: annotations/test_files_BP.csv
+            buffer: 3600 #1 hour buffer
+    RobertsBank:
+        audio: 
+            path: ../hallo-data/JASCO/RobertsBank/
+            datetime_format: "%Y%m%dT%H%M%S"
+        annotations:
+            path: annotations/annot_RB.csv
+        split:
+            train: 0.8
+            val: 0.2
+            test: 
+                path: annotations/test_files_RB.csv
+            buffer: 3600 #1 hour buffer
