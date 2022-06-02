@@ -65,7 +65,7 @@ Next, to train the deep learning model, run the command
 ```
 kt-train --config train.yaml
 ```
-When the training is completed, the model will automatically saved to a 
+When the training is complete, the model will automatically saved to a 
 directory called `output`.
 
 
@@ -92,7 +92,7 @@ through the EOSCF (2019-2021) and CNFASAR (2022-2026) programs.
 ## License
 
 The project is licensed under the [GNU GPLv3 license](https://www.gnu.org/licenses/) 
-and hence freely available for anyone to use and modify
+and hence the contents of this repository are freely available for anyone to use and modify.
 
 
 ## References
