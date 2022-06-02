@@ -43,7 +43,7 @@ model at detecting killer-whale vocalisations.
 
 [spec.json](spec.json) specifies the form in which the sound 
 samples will be stored. In the present case, the sound samples are 
-transformed to 5-second long spectrograms.
+transformed to spectrograms of 5 second duration.
 
 [train.yaml](train.yaml) contains the specifications for training 
 the deep learning model.
