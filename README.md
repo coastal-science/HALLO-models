@@ -6,14 +6,15 @@ Welcome to the public model repository of the The HALLO
 
 ## Description
 
-Here, you will find instructions and configuration files required to 
-train deep learning models for detecting and classifying vocalisations
+Here, you will find the instructions and configuration files required to 
+train deep learning models at detecting and classifying vocalisations
 made by killer whales.
 
-However, you will also need access to large bodies of underwater sound 
-recordings. Unfortunately, these recordings are not yet publicly available, 
-although we are working feverishly to change this! Please check in here again 
-soon for instructions on how to access the audio files. 
+Of course, instructions and configuration files alone won't do. You will 
+also need access to large bodies of annotated underwater sound recordings. 
+Unfortunately, these recordings are not yet publicly available, although we 
+are working feverishly to change this! Please check in here again 
+soon for instructions on how to access the data. 
 
 
 
