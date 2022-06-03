@@ -23,7 +23,7 @@ Currently, the only available model is a binary classifier for detecting
 killer whale vocalisations (pulsed calls, mainly). To find out more about 
 this model, click the link below.
 
- * [Killer-whale detector](kw-detector/)
+ * [kw-detector](kw-detector)
 
 More models, including models capable of classifiying vocalisations at finer 
 levels of resolution, e.g., according to ecotype or even pod, will be released 
