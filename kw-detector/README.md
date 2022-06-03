@@ -1,7 +1,7 @@
 # HALLO killer whale detector
 
 Below are instructions for building a deep-learning model to detect killer-whale calls, following 
-the approach described [here]([here](https://docs.google.com/presentation/d/1tWNy7S9j0jy5c0QOkN5mHTWEaUloKU8XcVNlq5qmuFU/edit?usp=sharing).
+the approach described [here](https://docs.google.com/presentation/d/1tWNy7S9j0jy5c0QOkN5mHTWEaUloKU8XcVNlq5qmuFU/edit?usp=sharing).
 
 
 ## Prerequisites
