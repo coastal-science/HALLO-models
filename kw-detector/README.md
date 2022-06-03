@@ -1,7 +1,7 @@
 # HALLO killer whale detector
 
-
-
+Below are instructions for building a deep-learning model to detect killer-whale calls, following 
+the approach described [here]([here](https://docs.google.com/presentation/d/1tWNy7S9j0jy5c0QOkN5mHTWEaUloKU8XcVNlq5qmuFU/edit?usp=sharing).
 
 
 ## Prerequisites
@@ -91,14 +91,16 @@ The trained model can be downloaded in two formats:
  * [hallo-kw-det-v1.ktpb](hallo-kw-det-v1.ktpb) (PAMGuard compatible)
 
 This model was trained on approximately 29,000 killer-whale calls extracted from 
-underwater recordings obtained at Roberts Bank and Boundary Pass in the Salish Sea 
-and a comparable number of ambient-noise samples. More details can be found 
+underwater recordings obtained at Roberts Bank and Boundary Pass in the Salish Sea. 
+More details can be found 
 [here](https://docs.google.com/presentation/d/1tWNy7S9j0jy5c0QOkN5mHTWEaUloKU8XcVNlq5qmuFU/edit?usp=sharing).
 
 
+## Citation
 
-## References
+This work was presented at the [181st Meeting of the Acoustical Society of America](https://asa.scitation.org/doi/abs/10.1121/10.0008312), held in December 2021 in Seattle, USA.
 
-This work was presented at the 
-[181st Meeting of the Acoustical Society of America](https://asa.scitation.org/doi/abs/10.1121/10.0008312), 
-held in December 2021 in Seattle, USA.
+
+
+
+
