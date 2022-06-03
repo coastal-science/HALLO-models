@@ -1,7 +1,7 @@
 # HALLO-models
 
 Welcome to the public model repository of the The HALLO 
-(Humans and ALgorithms Listening for Orcas) project!
+(Humans and ALgorithms Listening for Orcas) project.
 
 
 ## Description
@@ -13,7 +13,7 @@ vocalisations made by killer whales.
 Of course, instructions and configuration files alone won't do. You will 
 also need access to large bodies of annotated underwater sound recordings. 
 Unfortunately, these recordings are not yet publicly available, although we 
-are working feverishly to change this! Please check in here again 
+are working feverishly to change this. Please check in here again 
 soon for instructions on how to access the data. 
 
 
