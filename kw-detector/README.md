@@ -23,15 +23,18 @@ pip install dist/ketos-scripts-0.0.1.tar.gz
 
 ## Configuration files
 
-[db.yaml](db.yaml) contains the specifications for creating a 
+* [db.yaml](db.yaml): contains the specifications for creating a 
 database file with sound samples for training and testing a deep learning 
 model at detecting killer-whale vocalisations. 
-[spec.json](spec.json) specifies the form in which the sound 
+
+ * [spec.json](spec.json): specifies the form in which the sound 
 samples will be stored. In the present case, the sound samples are 
 transformed to spectrograms of 5 second duration. 
-[train.yaml](train.yaml) contains the specifications for training 
+
+ * [train.yaml](train.yaml): contains the specifications for training 
 the deep learning model. 
-Finally, [resnet_recipe.json](resnet_recipe.json) specifies the architecture 
+
+ * [resnet_recipe.json](resnet_recipe.json): specifies the architecture 
 of the neural network, in this case a fairly standard ResNet.
 
 
