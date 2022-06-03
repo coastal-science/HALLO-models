@@ -79,7 +79,7 @@ new_path = "kw-det_000-00.ktpb"
 name, module_path = which_nn_interface(input_path)
 nn_interface = import_nn_interface(name=name, module_path=module_path)
 model, audio_repr = nn_interface.load(input_path, load_audio_repr=True)
-model.save(new_path, audio_repr=audio_repr)
+model.save(new_path, audio_repr=audio_repr[0])
 ```
 
 
@@ -87,13 +87,28 @@ model.save(new_path, audio_repr=audio_repr)
 
 The trained model can be downloaded in two formats:
 
- * [hallo-kw-det-v1.kt](hallo-kw-det-v1.kt)
- * [hallo-kw-det-v1.ktpb](hallo-kw-det-v1.ktpb) (PAMGuard compatible)
+ * [hallo-kw-det-v1.kt](trained_models/hallo-kw-det-v1.kt)
+ * [hallo-kw-det-v1.ktpb](trained_models/hallo-kw-det-v1.ktpb) (PAMGuard compatible)
 
 This model was trained on approximately 29,000 killer-whale calls extracted from 
 underwater recordings obtained at Roberts Bank and Boundary Pass in the Salish Sea. 
 More details can be found 
 [here](https://docs.google.com/presentation/d/1tWNy7S9j0jy5c0QOkN5mHTWEaUloKU8XcVNlq5qmuFU/edit?usp=sharing).
+
+The figure below shows the performance of the model at detecting killer-whale calls 
+in sections of the Roberts Bank and Boundary Pass recordings that were held out (i.e. not used)
+during training. 
+
+![](test-result.png)
+
+The performance is quantified in terms of,
+
+ * Recall (R): The model's ability to detect a killer-whale call when it is present, where R=0 means that 
+ the model is not detecting any of the calls and R=1 means it is detecting all the calls.
+ 
+ * False-positive probability (FPP): The model's tendency to issue a false alarm when no killer-whale call is in 
+ fact present, where FPP=0 means that the model is issuing no false alarm and FPP=1 means it is issuing a false 
+ alarm for every 'empty' sound sample.
 
 
 ## Citation
