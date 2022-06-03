@@ -6,8 +6,8 @@
 
 ## Prerequisites
 
-You will need a Python environment with [ketos](https://docs.meridian.cs.dal.ca/ketos/) v2.6.1 
-or newer and [ketos-scripts](https://gitlab.meridian.cs.dal.ca/public_projects/ketos_scripts).
+You will need a Python environment with [ketos v2.6.1](https://docs.meridian.cs.dal.ca/ketos/) 
+(or newer) and [ketos-scripts](https://gitlab.meridian.cs.dal.ca/public_projects/ketos_scripts).
 
 
 ## Installation
@@ -89,6 +89,12 @@ The trained model can be downloaded in two formats:
 
  * [hallo-kw-det-v1.kt](hallo-kw-det-v1.kt)
  * [hallo-kw-det-v1.ktpb](hallo-kw-det-v1.ktpb) (PAMGuard compatible)
+
+This model was trained on approximately 29,000 killer-whale calls extracted from 
+underwater recordings obtained at Roberts Bank and Boundary Pass in the Salish Sea 
+and a comparable number of ambient-noise samples. More details can be found 
+[here](https://docs.google.com/presentation/d/1tWNy7S9j0jy5c0QOkN5mHTWEaUloKU8XcVNlq5qmuFU/edit?usp=sharing).
+
 
 
 ## References
