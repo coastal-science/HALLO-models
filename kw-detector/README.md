@@ -107,8 +107,8 @@ The performance is quantified in terms of,
  the model is not detecting any of the calls and R=1 means it is detecting all the calls.
  
  * False-positive probability (FPP): The model's tendency to issue a false alarm when no killer-whale call is in 
- fact present, where FPP=0 means that the model is issuing no false alarm and FPP=1 means it is issuing a false 
- alarm for every 'empty' sound sample.
+ fact present, where FPP=0 means that the model is issuing no false alarms at all and FPP=1 means it is issuing false 
+ alarms for every 'empty' sound sample.
 
 
 ## Citation
