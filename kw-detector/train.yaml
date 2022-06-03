@@ -1,6 +1,6 @@
 representation_path: spec.json
 models:
-    hallo-kw:
+    kw-det:
         recipe: resnet_recipe.json
         database: db.h5
         representation: spectrogram  
